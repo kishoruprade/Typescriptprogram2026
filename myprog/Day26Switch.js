@@ -4,6 +4,7 @@ var daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Frida
 var dayName = daysOfWeek[today.getDay()];
 //console.log(`Today is ${dayName}.`);
 var day = "".concat(dayName);
+//let day: string = "Monday"; // Example day, you can change this to test other days
 switch (day) {
     case "Monday":
         console.log("Today is Monday.");
@@ -28,4 +29,25 @@ switch (day) {
         break;
     default:
         console.log("Invalid day.");
+}
+var mark = 65;
+switch (true) {
+    case (mark >= 90):
+        console.log("Student is passed with A " + mark);
+        break;
+    case (mark >= 80):
+        console.log("Student is passed with B " + mark);
+        break;
+    case (mark >= 70):
+        console.log("Student is passed with C " + mark);
+        break;
+    case (mark >= 60):
+        console.log("Student is passed with D ");
+        break;
+    default:
+        console.log("Invalid marks entered");
+        break;
+    case (mark < 35):
+        console.log("Student is Failed");
+        break;
 }

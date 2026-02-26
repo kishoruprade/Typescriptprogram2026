@@ -36,3 +36,37 @@ switch (day) {
     default:
         console.log("Invalid day.");         
 }   
+
+
+ let mark:number = 65;
+ switch (true){
+        case (mark>= 90):
+            console.log("Student is passed with A " +mark);
+        break;
+        
+        case (mark >= 80):
+            console.log("Student is passed with B " +mark);
+        break;
+
+        case (mark >= 70):
+            console.log("Student is passed with C " +mark);
+            break;
+        case (mark >= 60):
+            console.log("Student is passed with D ");
+            break;
+
+
+            default :
+            console.log( "Invalid marks entered");
+            break;
+
+            
+                   case (mark <35):
+            console.log("Student is Failed");
+            break;
+
+         
+
+
+
+ }
